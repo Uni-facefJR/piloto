@@ -21,6 +21,8 @@
   .navbar a:hover {
     background: rgb(54, 54, 54);
     color: rgb(227, 227, 227);
+    transition-property: background, color;
+    transition-duration: 0.75s;
   }
   /* Conteúdo da página */
   .main {

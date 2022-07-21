@@ -1,14 +1,14 @@
  /* Menu de navegação */
- .navbar {
+.navbar {
     overflow: hidden;
     background-color: rgb(0, 0, 0);
     position: fixed; /* prende a barra de navegação */
     top: 0; /* posição da barra de navegação */
     left: 0; /* posição da barra de navegação */
     width: 100%; /* largura da barra de navegação */
-  }
+}
   /* Links do menu */
-  .navbar a {
+.navbar a {
     float: left;
     display: block;
     color: #ffffff;
@@ -16,16 +16,11 @@
     padding: 20px;
     text-decoration: none;
     margin-left: 3%;
-  }
+}
   /* Muda a cor do link quando o mouse passa por cima */
-  .navbar a:hover {
+.navbar a:hover {
     background: rgb(54, 54, 54);
     color: rgb(227, 227, 227);
     transition-property: background, color;
     transition-duration: 0.75s;
-  }
-  /* Conteúdo da página */
-  .main {
-    margin-top: 60px; /* Margem do topo*/
-    margin-left: 3%; /* Margem da esquerda */
-  } 
+}
